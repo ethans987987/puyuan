@@ -1,124 +1,110 @@
-# 万稿汇
+# 万稿汇 | WanGaoHui
 
 ## 官网与联系方式
 
-- 官网 / Website：https://toolsoul.daniu7.cn/item/gzh-wgh?site=platform
-- 微信 / WeChat：wx:kmm1564335
-
----
+- 官网：https://toolsoul.daniu7.cn/item/gzh-wgh?site=platform
+- 微信：kmm1564335
 
 ## 中文介绍
 
-万稿汇是一款 AI 内容创作与多平台发布桌面工具，覆盖公众号、头条号、百家号和小红书（贴图）等内容场景，围绕「选题素材 → AI 写作 → 模板排版 → 多平台发布」一条流水线，帮助个人博主、代运营团队和内容创作者完成从热点选题、文章生成到多账号发布的全流程。
+万稿汇是一款 **AI 内容创作与多平台发布桌面工具**，围绕「选题素材 → AI 写作 → 模板排版 → 多平台发布」一条流水线，覆盖公众号、头条号、百家号和小红书（贴图）等内容场景，帮助个人博主、代运营团队和内容创作者稳定产出。
 
-生成的文章自然、无 AI 痕迹，**内容 100% 过 AI 检测**。账号凭据和创作数据保存在本机，不经过第三方。
+产品特性：
+
+- 从热点 / 爆文中快速选题
+- AI 生成文章大纲、正文、排版
+- 一键制作公众号贴图（首图 + 内容卡）
+- 自动 / 手动配图
+- 多平台账号管理和内容发布（公众号、头条号、百家号、小红书贴图）
+- 定时自动托管生成并发布内容
+
+生成的文章自然、无 AI 痕迹，内容 **100% 过 AI 检测**。
+
+## 安全与隐私
+
+- 账号 Cookie / 登录态仅保存在本机，不经过第三方。
+- AI 网关调用只传递生成内容，不采集个人数据。
+- 安装包不内置任何 API 密钥。
 
 ## 中文核心能力
 
-### 一、解决的核心痛点
+### 资源管理
 
-**1. 没有灵感、不知道写什么**
-- 今日热点、微信爆文实时聚合，选题库现成可用
-- 我的素材支持导入和 AI 生成，按账号定位批量产出选题大纲
-- 一条主题/素材，AI 直接生成标题、大纲、正文，不再对着空白文档发呆
+- **今日热点**：实时更新的热点文章，可用于选题和二次创作。
+- **微信爆文**：微信生态爆文聚合，支持一键带入创作工坊。
+- **图片素材**：平台自动收集图片素材并进行 AI 打标，支持按标签筛选、搜索；已打标图片可作为文章配图。
+- **我的图片**：个人图库，支持上传图片并自定义标签。
+- **我的素材**：支持导入 TXT 素材，也支持 AI 按账号定位批量生成内容大纲；素材可编辑，供自动托管使用。
+- **素材完全自定义**：用户可自建素材组、批量导入、AI 生成、逐条编辑修改；素材不限于文本，可配合指定排版模板 / 首图模板使用，自动托管任务可直接绑定。
 
-**2. 不会打造账号人设**
-- AI 生成素材时输入「账号定位/主题」，大模型按人设产出内容
-- 同一素材组的历史大纲会回传给大模型，保持人设连续、避免重复
-- 素材可编辑、可沉淀，形成账号自己的选题库和内容资产
+### 创作工坊 · 文章模式
 
-**3. 配图没有准确标签**
-- 图片素材由平台 AI 自动打标，不需要手工分类
-- 自动配图按文章内容和标签匹配，选图更贴题
-- 个人图库支持上传图片并自定义标签，标签即筛选用
+- 输入主题或素材，AI 自动生成「爆款标题 → 文章大纲 → 完整正文 → 排版」。
+- 成品为自然真人风格，无 AI 痕迹，100% 过 AI 检测。
+- 内置多套公众号排版模板，支持主题生成器、自定义模板（另存为「我的模板」）。
+- 排版完全自定义：基于任意内置模板修改配色、字体、字号、样式参数，或直接写自定义 CSS 微调，另存为「我的模板」后与内置模板同等使用。
+- 自动配图：从图片素材库按文章内容匹配，或从个人图库选择。
+- 字数可选 800 / 1200 / 1500 或自定义。
+- 富文本编辑：标题、引用、卡片、列表、分割线、CTA 等组件。
+- 手机效果预览，支持复制 HTML 到公众号后台。
 
-**4. 排版费时间、发布繁琐**
-- 内置多套排版模板 + 自定义模板，一键套用
-- 账号中心统一管理多平台登录态，内容发布先选平台再选账号
-- 自动托管按计划批量生成并发布，素材用完自动标记不重复
+### 创作工坊 · 贴图模式
 
-**5. 内容一眼 AI 味**
-- 文章成品自然、口语化，无模板腔，符合真人创作习惯
-- 内容 100% 过 AI 检测
+- AI 根据主题生成贴图标题、分段正文和话题。
+- 首图模板 + 内容卡模板：标题渲染到首图、正文逐段渲染成卡片。
+- 内置 50+ 首图模板，按风格分类。
+- **自定义模板（高级版）**：可上传背景图、配置文字区域（位置 / 字号 / 颜色 / 对齐 / 行数）、自定义 CSS，另存为「我的模板」后全端通用。
+- **贴图素材自定义**：除内置模板外，用户可上传自己的首图 / 内容卡背景图，自由划定标题和正文的文字区域，保存为个人模板库。
+- 贴图发布到公众号，正文自动带话题。
 
-### 二、核心功能
+### 账号中心
 
-#### 1. 资源管理
-- **今日热点**：实时更新的热点文章，可用于选题和二次创作
-- **微信爆文**：微信生态爆文聚合，支持一键带入创作工坊
-- **图片素材**：平台自动收集图片素材并进行 AI 打标，支持按标签筛选、搜索；已打标图片可作为文章配图
-- **我的图片**：个人图库，支持上传图片并自定义标签
-- **我的素材**：支持导入 TXT 素材，也支持 AI 按账号定位批量生成内容大纲；素材可编辑，供自动托管使用
-- 素材完全自定义：用户可自建素材组、批量导入、AI 生成、逐条编辑修改，素材不限于文本，可配合指定排版模板/首图模板使用，托管任务可直接绑定
+- 支持公众号、头条号、百家号扫码 / 网页登录（小红书支持贴图发布），Cookie 自动保存。
+- 公众号支持同步名下多个公众号，标记当前生效账号。
+- 账号开关、原创 / 首发 / AI 声明等配置持久化保存。
+- 一键前往平台后台。
 
-#### 2. 创作工坊
+### 内容发布
 
-**文章模式**
-- 输入主题/素材，AI 自动生成：爆款标题 → 文章大纲 → 完整正文 → 排版
-- 成品自然真人风格，无 AI 痕迹，100% 过 AI 检测
-- 内置多套公众号排版模板，支持主题生成器、自定义模板（另存为我的模板）
-- 排版完全自定义：基于任意内置模板修改配色、字体、字号、样式参数，或直接写自定义 CSS 微调，另存为「我的模板」后与内置模板同等使用
-- 自动配图：从图片素材库按文章内容匹配，或从个人图库选择
-- 字数可选 800 / 1200 / 1500 或自定义
-- 富文本编辑：标题、引用、卡片、列表、分割线、CTA 等组件
-- 手机效果预览，支持复制 HTML 到公众号后台
+- 文章 / 贴图统一发布：先选平台，再选账号，支持公众号、头条号、百家号发布；公众号支持保存草稿箱，贴图支持发布到小红书。
+- 发布历史分页，可按平台 / 账号筛选。
+- 生成记录与发布状态联动，避免重复发布。
 
-**贴图模式**
-- AI 根据主题生成：贴图标题 + 分段正文 + 话题
-- 首图模板 + 内容卡模板，标题渲染到首图、正文逐段渲染成卡片
-- 内置 50+ 首图模板，按风格分类
-- **自定义模板（高级版）**：可上传背景图、配置文字区域（位置/字号/颜色/对齐/行数）、自定义 CSS，另存为我的模板后全端通用
-- 贴图素材自定义：除内置模板外，用户可上传自己的首图/内容卡背景图，自由划定标题和正文的文字区域，保存成个人模板库
-- 贴图发布到公众号，正文自动带话题
+### 自动托管
 
-#### 3. 账号中心
-- 支持公众号、头条号、百家号扫码/网页登录（小红书支持贴图发布），Cookie 自动保存
-- 公众号支持同步名下多个公众号，标记当前生效账号
-- 账号开关、原创/首发/AI 声明等配置持久化保存
-- 一键前往平台后台
+- 创建定时任务：每天 / 一次、每次成功篇数、开始时间 + 间隔。
+- 内容来源：我的素材 / 今日热点 / 微信爆文。
+- 支持文章和贴图（贴图可发布到公众号 / 小红书），公众号需选择具体账号。
+- 素材已使用自动标记，不重复消耗。
+- 任务执行日志实时查看，失败自动重试。
 
-#### 4. 内容发布
-- 文章/贴图统一发布：先选平台 → 再选账号（联动），支持公众号、头条号、百家号发布，公众号支持保存草稿箱，贴图支持发布到小红书
-- 发布历史分页，可按平台/账号筛选
-- 生成记录与发布状态联动，避免重复发布
+### 个人中心
 
-#### 5. 自动托管
-- 创建定时任务：每天/一次、每次成功篇数、开始时间 + 间隔
-- 内容来源：我的素材 / 今日热点 / 微信爆文
-- 支持文章和贴图（贴图可发布到公众号/小红书），公众号需选择具体账号
-- 素材已使用自动标记，不重复消耗
-- 任务执行日志实时查看，失败自动重试
-
-#### 6. 个人中心
-- 授权状态、套餐、到期时间、积分余额一目了然
-- 套餐购买 / 续费：微信扫码支付，支付后自动生效（同一授权）
-- 积分记录：AI 使用扣费流水
-- 订单记录：购买/续费订单及支付状态
-- 软件更新：自动检测新版本，后台下载、自动安装
-- 客服微信 / 二维码
-
-### 三、安全与隐私
-
-- 账号 Cookie / 登录态仅保存在本机
-- AI 网关调用只传递生成内容，不采集个人数据
-- 安装包不内置任何 API 密钥
+- 授权状态、套餐、到期时间、积分余额一目了然。
+- 套餐购买 / 续费：微信扫码支付，支付后自动生效（同一授权）。
+- 积分记录：AI 使用扣费流水。
+- 订单记录：购买 / 续费订单及支付状态。
+- 软件更新：自动检测新版本，后台下载、自动安装。
+- 客服微信 / 二维码。
 
 ## 中文使用场景
 
-- **个人博主**：日常更新公众号、头条号、百家号、小红书贴图，希望省去找选题、写稿、排版、配图、发布的时间
-- **代运营团队**：同时管理多个平台多个账号，需要统一管理登录态、按计划批量生成并发布内容
-- **人设型账号**：希望围绕同一个人设持续产出内容，并保持人设、口吻稳定
-- **模板与素材沉淀**：希望自定义排版模板和贴图模板，把团队/个人的设计资产沉淀到工具中复用
-- **自动托管运营**：希望按计划定时生成并发布内容，让已用素材自动标记、不重复消耗
+- **没有灵感、不知道写什么**：今日热点、微信爆文实时聚合，选题库现成可用；我的素材支持导入和 AI 生成，按账号定位批量产出选题大纲；输入一条主题或素材，AI 直接生成标题、大纲、正文。
+- **不会打造账号人设**：AI 生成素材时输入「账号定位 / 主题」，大模型按人设产出内容；同一素材组的历史大纲会回传给大模型，保持人设连续、避免重复；素材可编辑、可沉淀，形成账号自己的选题库和内容资产。
+- **配图没有准确标签**：图片素材由平台 AI 自动打标，不需要手工分类；自动配图按文章内容和标签匹配，选图更贴题；个人图库支持上传图片并自定义标签，标签即筛选用。
+- **排版费时间、发布繁琐**：内置多套排版模板 + 自定义模板，一键套用；账号中心统一管理多平台登录态，内容发布先选平台再选账号；自动托管按计划批量生成并发布，素材用完自动标记不重复。
+- **内容一眼 AI 味**：文章成品自然、口语化，无模板腔，符合真人创作习惯；内容 100% 过 AI 检测。
 
 ## 中文使用方式
 
-1. 在「账号中心」登录公众号 / 头条号 / 百家号账号；小红书账号用于贴图发布。Cookie 仅保存在本机
-2. 在「资源管理」导入 TXT 素材，或基于「今日热点 / 微信爆文」进行选题；可由 AI 按账号定位批量产出选题大纲
-3. 在「创作工坊」选择文章模式或贴图模式，输入主题/素材，按需选择字数、排版模板、贴图模板、自动配图
-4. 在「内容发布」先选平台、再选账号，发布文章（公众号/头条号/百家号）或贴图（公众号/小红书）；公众号可保存到草稿箱
-5. 在「自动托管」创建定时任务，绑定素材来源和账号，按计划自动生成并发布，失败自动重试
-6. 在「个人中心」查看授权、套餐、积分、订单，完成续费、获取客服微信，并接收软件更新
+1. **下载与授权**：从官网下载安装包，安装并启动万稿汇；在个人中心完成授权，并按需购买或续费套餐。
+2. **素材准备**：从「今日热点 / 微信爆文」中带入选题；或在「我的素材」中导入 TXT，或让 AI 按账号定位批量生成大纲。
+3. **账号绑定**：在账号中心扫码或在网页登录公众号、头条号、百家号；小红书支持贴图发布。
+4. **文章创作**：进入创作工坊文章模式 → 输入主题或素材 → AI 生成标题 / 大纲 / 正文 → 选择排版模板（可自定）和配图（自动或手动）→ 手机预览 → 复制 HTML 到公众号后台，或直接发布到目标平台。
+5. **贴图创作**：进入创作工坊贴图模式 → 输入主题 → 选择首图模板与内容卡模板 → AI 生成贴图标题、分段正文与话题 → 发布到公众号（自动带话题）或小红书。
+6. **内容发布**：在发布中心选择平台（公众号 / 头条号 / 百家号 / 小红书贴图）→ 选择账号 → 发布或保存为草稿箱；可在发布历史中按平台 / 账号筛选查看。
+7. **自动托管**：创建定时任务，指定内容来源、每天或一次、成功篇数、开始时间与间隔，任务按计划自动生成并发布；素材用完自动标记，任务日志可实时查看、失败自动重试。
+8. **运营维护**：在个人中心查看授权、套餐、到期时间、积分余额、订单记录；新版本会自动检测、下载与安装。
 
 ## 产品截图
 
@@ -136,131 +122,116 @@
 ![自动托管页](https://raw.githubusercontent.com/ethans987987/puyuan/main/assets/product-04-ScreenShot_2026-08-16_120852_858.png)
 *自动托管页*
 
-*贴图创作页 / 文章创作页 / 素材页 / 自动托管页*
-
 ## 中文关键词
 
-公众号 头条号 百家号 小红书 多平台发布 自动发布 自动托管 AI 写作 排版模板 贴图 选题素材 AI 检测 朱雀率
+公众号、头条号、小红书、百家号、自动发布、AI 内容创作、多平台发布、AI 检测
 
 ---
 
 ## English Overview
 
-万稿汇 (Wan Gao Hui) is an AI content creation and multi-platform publishing desktop tool for individual bloggers, agency teams, and content creators. It covers content scenarios on WeChat Official Accounts, Toutiao, Baijia Hao, and Xiaohongshu (image-card posts), running the full pipeline of "topic sourcing → AI writing → templated layout → multi-platform publishing."
+WanGaoHui is a desktop tool for AI content creation and multi-platform publishing. Following the pipeline **topic discovery → AI writing → template-based layout → multi-platform publishing**, it covers content scenarios on WeChat Official Account, Toutiao, Baijiahao, and Xiaohongshu (image-card posts), and helps personal bloggers, agency teams, and content creators produce content steadily.
 
-Generated articles read naturally with no AI traces — **100% pass AI content detection**. Account credentials and creation data are stored locally on the user's device and are never sent to third parties.
+Core capabilities:
+
+- Quickly select topics from hot / viral posts.
+- AI generates article outlines, body, and layout.
+- One-click creation of WeChat Official Account image cards (cover + content cards).
+- Automatic or manual image matching.
+- Multi-platform account management and content publishing (WeChat Official Account, Toutiao, Baijiahao, Xiaohongshu image cards).
+- Scheduled auto-hosting for content generation and publishing.
+
+Generated articles are natural and free of AI traces, and the content **passes AI detection 100%**.
+
+### Security & Privacy
+
+- Account cookies / login sessions are stored only on the local machine and never pass through third parties.
+- The AI gateway only transmits content for generation and does not collect personal data.
+- The installer does not embed any API keys.
 
 ## English Features
 
-### Pain Points Addressed
+### Resource Management
 
-**1. No inspiration, don't know what to write**
-- Real-time aggregation of today's trending topics and viral WeChat articles for a ready-to-use topic pool
-- "My Materials" supports import and AI generation, batch-producing topic outlines based on the account's positioning
-- Feed one topic / material and let AI produce title, outline, and full body — no more staring at a blank page
+- **Today's Hot Topics**: Real-time updated hot articles for topic selection and derivative creation.
+- **WeChat Viral Posts**: Aggregation of viral posts from the WeChat ecosystem; can be brought into the creation workshop with one click.
+- **Image Material**: The platform automatically collects image materials and applies AI tagging, with tag filtering and search; tagged images can be used as article illustrations.
+- **My Images**: Personal image library, supporting image upload and custom tags.
+- **My Materials**: Supports importing TXT materials and AI batch-generation of content outlines based on account positioning; materials are editable and used by auto-hosting tasks.
+- **Fully Customizable Materials**: Users can create their own material groups, batch-import, AI-generate, and edit entries one by one. Materials are not limited to text and can be paired with specified layout / cover templates; auto-hosting tasks can bind directly.
 
-**2. Hard to build a consistent account persona**
-- Enter "account positioning / topic" when generating materials with AI; the model produces content in that persona
-- Historical outlines from the same material group are fed back to the model to keep the persona consistent and avoid repetition
-- Materials are editable and accumulate into the account's own topic pool and content assets
+### Creation Workshop · Article Mode
 
-**3. Images without accurate tags**
-- Platform AI automatically tags image materials — no manual classification
-- Auto image-matching selects images based on article content and tags
-- Personal image library supports uploads with custom tags; tags act as filters
+- Input a topic or material, and AI auto-generates: viral title → article outline → full body → layout.
+- Output is a natural, human writing style with no AI traces, passing AI detection 100%.
+- Multiple built-in WeChat Official Account layout templates, with theme generators and custom templates (saved as "My Templates").
+- Fully customizable layout: modify colors, fonts, sizes, and style parameters on any built-in template, or write custom CSS for fine-tuning; saving as "My Templates" makes them equivalent to built-in templates in usage.
+- Automatic image matching: select from the image material library by article content, or from the personal image library.
+- Word count selectable at 800 / 1200 / 1500 or custom.
+- Rich-text editing: titles, quotes, cards, lists, dividers, CTAs, and more.
+- Mobile preview, with the ability to copy HTML to the WeChat Official Account backend.
 
-**4. Time-consuming layout and cumbersome publishing**
-- Built-in layout templates plus custom templates, applied in one click
-- Account Center unifies multi-platform login sessions; publishing selects platform first, then account
-- Auto Hosting generates and publishes in batches on schedule; consumed materials are auto-marked to avoid reuse
+### Creation Workshop · Image-Card Mode
 
-**5. Content obviously smells like AI**
-- Final articles read naturally and conversationally, with no template tone, matching real human writing habits
-- 100% pass AI content detection
+- AI generates image-card title, segmented body, and topic from the given topic.
+- Cover template + content-card template: the title renders onto the cover, and the body renders segment by segment into cards.
+- 50+ built-in cover templates, categorized by style.
+- **Custom Templates (Advanced)**: Upload background images, configure text regions (position / size / color / alignment / lines), and custom CSS; saved as "My Templates" for cross-platform usage.
+- **Customizable Image-Card Materials**: Beyond built-in templates, users can upload their own cover / content-card background images, freely define text regions for title and body, and save them to a personal template library.
+- Image cards can be published to WeChat Official Account, with topics automatically appended to the body.
 
-### Core Capabilities
+### Account Center
 
-**1. Resource Management**
-- **Today's Hot Topics**: Real-time trending articles for topic selection and secondary creation
-- **WeChat Viral Articles**: Aggregated viral articles from the WeChat ecosystem, with one-click import into the Creation Workshop
-- **Image Materials**: Platform-collected images auto-tagged by AI, filterable and searchable by tag; tagged images can be used as article illustrations
-- **My Images**: Personal image library supporting uploads and custom tags
-- **My Materials**: Import TXT materials, or have AI batch-generate content outlines based on account positioning; materials are editable and used by Auto Hosting
-- Fully customizable materials: user-created material groups, batch import, AI generation, per-item editing; materials are not limited to text and can be paired with specified layout templates / cover templates, with Hosting tasks bindable directly
+- QR-code or web login supported for WeChat Official Account, Toutiao, and Baijiahao (Xiaohongshu supports image-card publishing); cookies are saved automatically.
+- WeChat Official Account supports syncing multiple accounts under the same name and marking the currently active account.
+- Account toggle, originality / first-post / AI declaration and other configurations are persisted.
+- One-click navigation to each platform's backend.
 
-**2. Creation Workshop**
+### Content Publishing
 
-*Article Mode*
-- Input topic / material; AI auto-generates: viral title → article outline → full body → layout
-- Final output reads naturally in human style with no AI traces — 100% pass AI content detection
-- Built-in set of WeChat Official Account layout templates, supporting theme generator and custom templates (save as "My Templates")
-- Fully customizable layout: modify colors, fonts, font sizes, and style parameters based on any built-in template, or write custom CSS to fine-tune; save as "My Templates" and use them like built-ins
-- Auto image-matching from the Image Materials library by content, or pick from the personal image library
-- Word count selectable: 800 / 1200 / 1500 or custom
-- Rich-text editing: headings, blockquotes, cards, lists, dividers, CTA, etc.
-- Mobile preview, supports copying HTML to the WeChat Official Account backend
+- Unified publishing of articles and image cards: first select the platform, then the account; supports publishing to WeChat Official Account, Toutiao, and Baijiahao; WeChat Official Account supports saving to drafts, and image cards support publishing to Xiaohongshu.
+- Publish history is paginated and can be filtered by platform / account.
+- Generation records are linked with publish status to avoid duplicate publishing.
 
-*Image-Card Mode*
-- AI generates from a topic: card title + segmented body + topic tag
-- Cover template + content card template; title renders onto the cover, body segments render into cards
-- 50+ built-in cover templates, classified by style
-- **Custom templates (Advanced)**: upload background images, configure text regions (position / font size / color / alignment / line count), custom CSS, save as "My Templates" for use across the board
-- Custom image-card materials: beyond built-in templates, users can upload their own cover / content-card background images, freely define title and body text regions, and save them into a personal template library
-- Image cards published to WeChat Official Account automatically include topic tags in the body
+### Auto-Hosting
 
-**3. Account Center**
-- Supports login via QR code or web for WeChat Official Account, Toutiao, and Baijia Hao (Xiaohongshu supports image-card publishing); cookies are auto-saved
-- WeChat Official Account supports syncing multiple accounts under the same name and marking the currently active one
-- Account toggle, originality / first-release / AI disclosure settings are persistently saved
-- One-click access to platform backends
+- Create scheduled tasks: daily or one-time, success count per run, start time + interval.
+- Content sources: My Materials / Today's Hot Topics / WeChat Viral Posts.
+- Supports both articles and image cards (image cards can be published to WeChat Official Account / Xiaohongshu); WeChat Official Account requires selecting a specific account.
+- Used materials are automatically marked to avoid reuse.
+- Task execution logs are available in real time, with automatic retry on failure.
 
-**4. Content Publishing**
-- Unified publishing for articles / image cards: select platform first → then account (linked); supports publishing to WeChat Official Account, Toutiao, and Baijia Hao; WeChat Official Account supports saving to draft box; image cards support publishing to Xiaohongshu
-- Paged publishing history, filterable by platform / account
-- Generation records are linked with publishing status to prevent duplicate publishing
+### Personal Center
 
-**5. Auto Hosting**
-- Create scheduled tasks: daily / one-time, number of successful pieces per run, start time + interval
-- Content sources: My Materials / Today's Hot Topics / WeChat Viral Articles
-- Supports articles and image cards (image cards can be published to WeChat Official Account / Xiaohongshu); WeChat Official Account requires selecting a specific account
-- Used materials are auto-marked, never reused
-- Real-time task execution logs; failed runs auto-retry
-
-**6. Personal Center**
-- Authorization status, plan, expiration time, and credit balance at a glance
-- Plan purchase / renewal: WeChat QR-code payment, takes effect automatically after payment (same authorization)
-- Credit records: AI usage deduction history
-- Order records: purchase / renewal orders and payment status
-- Software updates: auto-detect new versions, download and install in the background
-- Customer service WeChat / QR code
-
-### Security & Privacy
-- Account cookies / login sessions are stored only on the local device
-- The AI gateway only passes generation content and does not collect personal data
-- The installation package contains no embedded API keys
+- Authorization status, plan, expiration date, and credit balance at a glance.
+- Plan purchase / renewal: WeChat QR-code payment, automatically takes effect after payment under the same authorization.
+- Credit records: AI usage deduction logs.
+- Order records: purchase / renewal orders and payment status.
+- Software updates: new versions are detected automatically, with background download and auto-installation.
+- Customer-service WeChat / QR code.
 
 ## English Use Cases
 
-- **Individual bloggers**: maintain daily updates on WeChat Official Account, Toutiao, Baijia Hao, and Xiaohongshu image cards while saving time on topic selection, writing, layout, image matching, and publishing
-- **Agency operations teams**: manage multiple platforms and accounts at once with unified login sessions and scheduled batch production and publishing
-- **Persona-driven accounts**: produce content consistently around one persona while keeping voice and style stable
-- **Template and material accumulation**: customize layout and image-card templates, accumulate team or personal design assets in the tool for reuse
-- **Scheduled operations**: run timed generation and publishing on plan, with consumed materials auto-marked to prevent reuse
+- **No inspiration, unsure what to write**: Today's Hot Topics and WeChat Viral Posts aggregate in real time, providing a ready-to-use topic pool; My Materials supports importing and AI generation, producing topic outlines in batches based on account positioning; input one topic or material, and AI directly generates the title, outline, and body.
+- **Difficulty building an account persona**: When AI generates materials, users can input "account positioning / topic" so the LLM outputs content aligned with the persona; historical outlines from the same material group are fed back to the LLM to keep the persona consistent and avoid repetition; materials are editable and accumulate into the account's own topic pool and content assets.
+- **Images lack accurate tags**: Image materials are AI-tagged by the platform, no manual classification needed; automatic image matching selects by article content and tags for better relevance; the personal image library supports uploading images with custom tags for direct filtering.
+- **Layout is time-consuming, publishing is cumbersome**: Multiple built-in layout templates + custom templates, one-click to apply; the Account Center uniformly manages logins across platforms, with the publishing flow "select platform → select account"; auto-hosting generates and publishes in batches on schedule, with used materials automatically marked to avoid repetition.
+- **Content obviously smells like AI**: Final articles are natural and conversational, free of template tone, fitting real human writing habits; content passes AI detection 100%.
 
 ## English Usage
 
-1. In "Account Center," log in to WeChat Official Account / Toutiao / Baijia Hao; the Xiaohongshu account is used for image-card publishing. Cookies are stored only locally
-2. In "Resource Management," import TXT materials or pick topics from "Today's Hot Topics / WeChat Viral Articles"; AI can batch-generate topic outlines based on the account's positioning
-3. In "Creation Workshop," choose Article Mode or Image-Card Mode, enter a topic / material, and select word count, layout template, image-card template, and auto image-matching as needed
-4. In "Content Publishing," select platform first and then account, and publish articles (WeChat Official Account / Toutiao / Baijia Hao) or image cards (WeChat Official Account / Xiaohongshu); WeChat Official Account supports saving to the draft box
-5. In "Auto Hosting," create scheduled tasks, bind material sources and accounts, and let the tool auto-generate and publish on plan; failed runs auto-retry
-6. In "Personal Center," check authorization, plan, credits, and orders, complete renewal, reach customer service via WeChat, and receive software updates
+1. **Download & authorize**: Download the installer from the official website, install and launch WanGaoHui; complete authorization in the Personal Center, and purchase or renew a plan as needed.
+2. **Prepare materials**: Bring topics in from "Today's Hot Topics / WeChat Viral Posts"; or import TXT into "My Materials", or let AI batch-generate outlines based on account positioning.
+3. **Bind accounts**: In the Account Center, scan QR codes or log in via web for WeChat Official Account, Toutiao, and Baijiahao; Xiaohongshu supports image-card publishing.
+4. **Create an article**: Enter Article Mode in the Creation Workshop → input a topic or material → AI generates title / outline / body → choose a layout template (customizable) and images (automatic or manual) → mobile preview → copy HTML to the WeChat Official Account backend, or publish directly to the target platform.
+5. **Create image cards**: Enter Image-Card Mode → input a topic → choose cover and content-card templates → AI generates image-card title, segmented body, and topics → publish to WeChat Official Account (topics auto-appended) or Xiaohongshu.
+6. **Publish content**: In the publishing center, select the platform (WeChat Official Account / Toutiao / Baijiahao / Xiaohongshu image cards) → select the account → publish or save to drafts; the Publish History can be filtered by platform / account.
+7. **Auto-hosting**: Create a scheduled task with content source, daily or one-time frequency, success count, start time, and interval; the task auto-generates and publishes on schedule, with used materials auto-marked and live task logs; failures auto-retry.
+8. **Operations & maintenance**: Use the Personal Center to view authorization, plan, expiration date, credit balance, and orders; new versions are automatically detected, downloaded, and installed.
 
 ## English Keywords
 
-WeChat Official Account Toutiao Baijia Hao Xiaohongshu multi-platform publishing auto publishing auto hosting AI writing layout template image card topic sourcing AI content detection Zhuque detection rate
-
----
+WeChat Official Account, Toutiao, Xiaohongshu, Baijiahao, auto-publish, AI content creation, multi-platform publishing, AI detection
 
 ## 联系二维码
 
